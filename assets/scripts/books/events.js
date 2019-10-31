@@ -5,7 +5,7 @@ const ui = require('./ui')
 const getBooks = function (event) {
   console.log('get books button')
   api.allBooks()
-    .then(console.log)
+
     .then(ui.getBooksSuccess)
     .catch(console.error)
 }

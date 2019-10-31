@@ -5,7 +5,8 @@ const booksTemplate = require('../templates/book-fill.handlebars')
 const getBooksSuccess = (data) => {
   console.log(data)
   const showBooksHtml = booksTemplate({ books: data.books })
-  $('.content').append(showBooksHtml)
+  console.log(showBooksHtml)
+  $('#handlebar-div').append(showBooksHtml)
 }
 
 const successMessage = function (newText) {
