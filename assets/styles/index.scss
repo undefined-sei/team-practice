@@ -11,9 +11,9 @@ body {
 }
 
 div {
-  display: flex;
   color: white;
 }
+
 button {
   background-color: transparent;
   color: white;
@@ -24,10 +24,34 @@ button:hover {
   background-color: green;
 }
 
+.book-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  div {
+    width: 100%;
+  }
+  text-align: center;
+}
+
+.book-id {
+  align-items: center;
+  width: 10% !important;
+}
+
+.book-title {
+  align-items: center;
+}
+
+.book-author {
+  align-items: center;
+}
+
 .books-title {
   text-align: center;
   color: white;
 }
+
 .failure {
   color: red;
 }
