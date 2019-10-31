@@ -7,5 +7,5 @@
 // require('./example')
 
 $(() => {
-  $('#get-books').on('click', getBooks)
+  $('#get-book').on('click', getBooks)
 })
