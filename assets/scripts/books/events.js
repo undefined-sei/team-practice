@@ -9,7 +9,6 @@ const getBooks = function (event) {
     .catch(console.error)
 }
 
-
 module.exports = {
   getBooks
 }
