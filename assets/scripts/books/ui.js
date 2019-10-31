@@ -6,6 +6,7 @@ const getBooksSuccess = (data) => {
   console.log(data)
   const showBooksHtml = booksTemplate({ books: data.books })
   console.log(showBooksHtml)
+  $('#handlebar-div').html('')
   $('#handlebar-div').append(showBooksHtml)
 }
 
