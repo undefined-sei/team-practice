@@ -1,8 +1,8 @@
 <!-- div name: handlebar-div -->
-<div class='handlebar-div'>
+<div class='book-item'>
   {{#each books as |book|}}
-    <div style="border: 1px solid gray">{{book.id}}</div>
-    <div style="border: 1px solid gray">{{book.title}}</div>
-    <div style="border: 1px solid gray">{{book.author}}</div>
+    <div class="book-id" style="border: 1px solid gray">{{book.id}}</div>
+    <div class="book-title" style="border: 1px solid gray">{{book.title}}</div>
+    <div lass="book-author" style="border: 1px solid gray">{{book.author}}</div>
   {{/each}}
 </div>
